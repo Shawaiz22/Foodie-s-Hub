@@ -1,0 +1,131 @@
+.content-nav{
+    max-width:100vw;
+    background-color: rgb(205 197 197 / 24%);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(221 221 221);
+}
+
+.content-nav a{
+
+    margin: 0rem -2rem 0px 3rem;
+    font-family: var(--content-nav-font);
+    font-size: 0.9rem;
+    word-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.content-nav a:hover{
+    color: white;
+}
+
+.blogpost{
+    /* border: 2px solid blue; */
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.post-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+    /* border: 2px solid black; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* width: 80vw; */
+    /* max-width: fit-content; */
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+.post-img h1{
+    font-family: var(--content-head-font);
+    font-size: 3rem;
+    /* height: 2px; */
+    text-align: center;
+    color: var(--main-color);
+}
+
+.post-img h3,span{
+    text-align: left;
+    font-family: var(--content-font);
+    font-weight: 600;
+    font-size: 1rem;
+    /* margin-left: -16rem; */
+    margin-top: -1rem;
+    /* text-overflow: ellipsis; */
+}
+
+.post-img img{
+    width: 70vh;
+    height: 40vh;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.blog-write{
+    margin: 2rem;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: flex-start;
+    overflow: hidden;
+    
+}
+
+.blog-write h2{
+    /* padding: 1rem; */
+    margin: 1.5rem 0;
+    font-family: var(--content-head-font);
+    letter-spacing: 0.6px;
+    margin-left: 1rem;
+    color: var(--main-color);
+}
+
+.blog-write li{
+    /* padding: 1rem; */
+    margin: 1rem 0;
+    font-family: var(--content-font);
+    padding: 2px;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    /* padding: 0.5rem; */
+
+
+}
+
+.blog-write p{
+    font-family: var(--content-font);
+    font-weight: 600;
+    /* padding: 1rem; */
+    word-spacing: 1.5px;
+    line-height: 2rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.blog-write img{
+    max-height: 40vh;
+    max-width: 33vh;
+    margin: auto;
+}
+
+.blog-credit{
+    font-family: var(--content-nav-font);
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 1em;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}

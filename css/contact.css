@@ -1,0 +1,45 @@
+.navigator-sign4{
+
+  /* display: inline;  */
+  position: relative;
+  left: 36.2rem;
+  height: 0.1rem;
+  width: 4rem;
+  background-color: var(--main-color);
+  border: 1px solid var( --main-color);
+}
+
+.contact-content{  
+    height: 75vh;
+    margin-top: 2rem;
+    padding: 9px;
+    position: relative; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+.contact-content h2{
+    margin-top: 1.2rem;
+    color: var(--main-color);
+    padding: 8px;
+}
+
+  .contact-content::after {
+    content: "";
+    background-image: url("/assets/cover_photo.jpg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+    margin-top: 2rem;
+  }
+
+  .contact-submit{
+    position: relative;
+    top:2px;
+    right: -7px;
+  }

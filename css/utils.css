@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Baloo+Bhai+2&family=Bitter:ital,wght@1,100&family=Kanit:wght@300&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2&family=Bitter:ital,wght@1,100&family=DM+Serif+Display&family=Fira+Sans+Condensed:wght@300&family=Kanit:wght@300&family=Nothing+You+Could+Do&display=swap');
+
+:root {
+    --main-color: rgb(64 115 76);
+    --head-font: 'Kanit', sans-serif;
+    --content-font: 'Bitter', serif;
+    --head-font2: 'Arvo', serif;
+    --sp-font: 'Nothing You Could Do', cursive;
+    --content-bg: rgba(243, 233, 219, 0.232);
+    --content-nav-font:'Fira Sans Condensed', sans-serif;
+    --content-head-font:'DM Serif Display', serif;
+
+    --transform: scale(1.04);
+    --transition: transform .6s,  .6s ease;
+}
+@keyframes animateImage {
+    img{
+        height: 16rem;
+        width: 24rem;
+    }
+    
+}
+
+@keyframes fadeAnimate{
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: fadeAnimate ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.main-color {
+    color: rgb(64 115 76);
+    
+}
+.sp-font{
+    font-family: 'Nothing You Could Do', cursive;
+}
+.font1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.head-font2 {
+    font-family: 'Arvo', serif;
+}
+
+.content_font {
+    font-family: 'Bitter', serif;
+}
+
+.content-head-font{
+     font-family: 'DM Serif Display', serif;
+}
+
+.content-nav-font{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.max-width1 {
+    max-width: 80vw;
+}
+
+.jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-button{
+    background: transparent;
+    outline: none;
+    border: none;
+    position: relative;
+    right: 25.5rem;
+    top: 2px;
+}
+
+
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+
+.search-button img:hover{
+    cursor: pointer;
+}
+
+.searchInp {
+    padding: 5px 5px;
+    font-size: 16px;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--head-font);
+
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    font-family: var(--head-font);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--main-color);
+    color: black;
+    font-weight: bolder;
+    transform: scale(1.04);
+}
+
+/* .footerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+
+
+/* .footerdiv p{
+    display: block;
+} */
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 0.5em 0.5em;
+    margin: 0.5rem 0.5rem;
+    font-size: 18px;
+    font-family: var(--content-font);
+    border: 2px solid var(--main-color);
+      border-radius: 5px;
+      font-weight: 600;
+  }
+
+  .transition{
+    transition: transform .6s,  .6s ease;
+  }
+  .transform{
+    transform: scale(1.04);
+  }
+
+  .bi:hover{
+    /* background-color: purple; */
+    fill: blue;
+  }
+
+  .bi1:hover{
+    fill: rgb(227, 26, 227);
+  }
+
+  .bi2:hover{
+    fill: red;
+  }
+
+  .bi3:hover{
+    fill:green
+  }
